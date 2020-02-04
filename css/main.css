@@ -1,4 +1,287 @@
-* {
+body {
+    background-color:#190101;
+    height: 1111px;
+    color: white;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.clearfix {clear: both;}
+
+/***Part 0 ***********/
+.part0 .slider {
+    height: 550px;
+    background-size: cover;
+}
+.part0 .slider .first {
+    padding-top: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.part0 .slider .first h2 {
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 50px;
+    width: 600px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+.part0 .slider .first button {
+    background: none;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1.5px solid white;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+
+.part0 .navbar {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+.navbar h2 {float: left;}
+.navbar h2 span {color: red;}
+.navbar ul {
+    float: right;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 0;
+} 
+.navbar ul li {
+    padding:7px 10px;
+    float: left;
+}
+.navbar ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar ul li a:hover {
+    color: red;
+}
+/***Part 1 ************/
+.part1 {
+    overflow: hidden;
+    padding: 20px 0 70px 0 ;
+}
+.part1 .feed {
+    width: 33.33%;
+    height: 180px;
+    float: left;
+    line-height: 1.8;
+}
+.part1 .feed p{
+    color: #ffffffd1;
+}
+
+/***Part 2 ************/
+.part2 {
+    background-color:black;
+    overflow: hidden;
+}
+.part2 .pic {
+    float: left;
+    width: 40%;
+}
+.part2 .pic img {width: 100%;height: 100%;}
+
+.part2 .info {
+    float: left;
+    width: 60%;
+}
+.part2 .info h2{
+    margin: 40px 0 20px 40px;
+}
+.part2 .info p {
+    line-height: 1.8;
+    color:#ffffffd1;
+    margin: 0 0 0 40px;
+}
+.part2 .hobbies {
+    overflow: hidden;
+}
+.part2 .hobbies > div {
+    width: 50%;
+    float: left;
+    min-height: 100px;
+}
+/***Part 3 ***********/
+.part3 {
+    overflow: hidden;
+    padding: 30px 0;
+}
+.part3 .myskils ,.part3 .pregres {
+    float: left;
+    width: 40%;
+    padding-left: 50px;
+}
+.part3 .myskils {
+    padding-left: 50px;
+}
+.part3 .myskils h2 {
     margin: 0;
-    padding: 0;
+    font-size: 35px;
+    font-weight: bold;
+}
+.part3 .myskils p {
+    color: #ffffffd1;
+    line-height: 1.7;
+}
+.part3 .myskils button {
+    background: none;
+    color: white;
+    padding: 15px 30px;
+    border: 1px solid white;
+}
+.part3 .pregres h4 {
+    margin: 15px;
+}
+.part3 .pregres progress {
+    width: 500px;
+    height: 20px;
+    background-color: gold;
+    color: white;
+}
+
+
+/***Part 4 **********/
+.part4 {
+    background-color: black;
+    text-align: center;
+    padding: 50px 0 70px 0;
+}
+.part4 p{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+.part4 button {
+    font-weight: bold;
+    background: none;
+    padding: 12px 30px;
+    color:white;
+    border: 1px solid white;
+    margin: 20px 0;
+    
+}
+/***Part 5 *************/
+.part5 {
+    padding: 30px 0;
+    overflow: hidden;
+}
+.part5 .education ,
+.part5 .degre {
+    float: left;
+    width: 40%;
+}
+.part5 p {line-height: 1.7; color: #ffffffd1;}
+.part5 .degre {
+    padding-left:100px ;
+}
+.part5 .degre h4 {
+    font-weight: bold;
+}
+.part5 .degre span {
+    background-color: red;
+    padding: 5px 7px;
+}
+.part5 .degre hr {
+    margin: 30px 0;
+}
+
+.part5 .exprins ,
+.part5 .exp {
+    float: left;
+    width: 50%;
+}
+/***Part 6 *************/
+.part6 {
+    background-color: black;
+    text-align: center;
+    padding: 50px 0 60px 0;
+}
+.part6 p{
+    line-height: 1.8;
+    color: #ffffffd1;
+    font-style: italic;
+}
+.part6 ul {
+    list-style: none;
+    padding-left: 30px;
+    text-align: center;
+}
+.part6 ul li {
+    border: 1px solid red;
+    width: 15px;
+    height: 1px;
+    display: inline-block;
+}
+/***Part7**************/
+.part7 {
+    padding: 30px 0;
+    text-align: center;
+}
+.part7 p {
+    line-height: 1.8;
+    color: #ffffffd1;
+    margin-bottom: 50px;
+}
+.part7 .ourwork {
+    overflow: hidden;
+}
+.part7 .ourwork div {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 10px;
+}
+.part7 .ourwork >div >img {
+    width: 90%;
+}
+/***Part8*************/
+.part8 {
+    background-color: black;
+    overflow: hidden;
+}
+.part8 .info {
+    margin-left: 80px;
+}
+.part8 h2 {
+    color: white;
+    font-weight: bold;
+}
+.part8 p {
+    color:#ffffffd1;
+}
+.part8 .info , .part8 .form {
+    width: 40%;
+    float: left;
+    padding: 40px 10px;
+}
+.part8 form label{
+    display: block;
+    color: #ffffffd1;
+    margin-bottom: 10px;
+}
+.part8 form input ,form textarea {
+    background-color: rgba(20, 20, 53, 0.212);
+    color:#ffffffd1;
+    width: 80%;
+    padding: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.199);
+}
+
+
+/***Part 9 **********/
+.part9 {
+    padding: 20px 0;
+    text-align: center;
 }
